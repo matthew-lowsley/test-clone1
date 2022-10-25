@@ -1,0 +1,101 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+button {
+    
+
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+
+nav > .nav-section{
+    
+    display: flex;
+    gap: 1rem;
+}
+
+#nav-buttons > button {
+    margin: 1rem;
+}
+
+section {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+
+.feed {
+   
+}
+
+.post-header {
+    display: flex;
+
+}
+
+.post-image {
+    width: 100vw;
+    min-width: 320px;
+    max-width: 400px;
+
+}
+
+.profile-picture {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.profile-picture-min {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.post-top-comment {
+    display: flex;
+}
+
+.post-interaction {
+    display: flex;
+    margin-top: 1rem;
+    margin-button: 1rem;
+}
+
+.post-interaction > ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-buttons {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
